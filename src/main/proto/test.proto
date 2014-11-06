@@ -1,0 +1,6 @@
+package se.mzlair.protostuffbenchmark.proto;
+
+message TestMessage {
+    repeated int32 packedInt32s = 1 [packed = true];
+    repeated int32 unpackedInt32s = 2;
+}
